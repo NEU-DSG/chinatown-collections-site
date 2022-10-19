@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>馆藏</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+    
+    <link rel="stylesheet" href="/style.css">  
+</head>
+<body class="d-flex flex-column h-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-2">
+    <a class="navbar-brand" href="../zh/index.html">华埠历史目录</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../zh/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../zh/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../zh/data_model.html">数据模型</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              实体类别索引
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../zh/collections.html">馆藏</a>
+              <a class="dropdown-item" href="../zh/organizations.html">组织</a>
+              <a class="dropdown-item" href="../zh/people.html">人员</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              浏览收藏...
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../zh/maintainers.html">维护者</a>
+              <a class="dropdown-item" href="../zh/subjects.html">主题</a>
+              <a class="dropdown-item" href="../zh/materials.html">材料类别</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../zh/credits.html">Credits</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</nav>
+    </header>
+    <main class="flex-shrink-0 p-2">
+        <div class="container">
+            
+<div class="row">
+    <div class="col-10">
+        <h1>馆藏</h1>
+    </div>
+    <div class="col-2">
+        
+            <a role="button" class="btn btn-outline-primary float-end" href="../en/collections.html">en</a>
+        
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        
+        <p>
+            此处列出的馆藏类别包括档案馆藏、网站和个人藏品，涉及与华埠社区和波士顿华人社区相关的各种主题。下面列出的是每个馆藏及其内容简要说明，还有数字化状态。 
+        </p>
+        
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <table class="table table-bordered table-sm display" id="collections-table">
+            <thead>
+                <tr>
+                    <th>标题</th>
+                    <th>馆藏类型</th>
+                    <th>数字化状态</th>
+                    <th>描述</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q175.html">2020 年 1 月与亚裔社区发展公司 (ACDC) 哈德逊街居民和 Cynthia Yee 的故事会</a></td>
+                    <td class="w-15">个人馆藏</td>
+                    <td class="w-15">完全数字化</td>
+                    <td class="w-50">这个馆藏是一个 2020 年 1 月与亚裔社区发展公司 (ACDC)、哈德逊街居民和 Cynthia Yee 讲故事的录音。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q147.html">Carmen Chan 的《舢板》报纸照片</a></td>
+                    <td class="w-15">个人馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">这个馆藏包含华埠当地《舢板》报纸记者 Carmen Chan 拍摄的照片。 这个馆藏包含大量黑白照片。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q153.html">Caroline Chang 馆藏</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">这是纽英仑华人历史协会 (CHSNE) 的众多馆藏之一。 目前尚未处理，因此应向纽英仑华人历史协会 (CHSNE) 查询是否可用于研究。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q154.html">Cheng Imm Tan 文件</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">这个馆藏包含 Gund Kwok 的音频、视频、图片和教学文件，这是波士顿华埠的一个全女性亚裔舞狮团。 还包含一些 Cheng Imm Tan 的法律和个人文件，例如，移民和旅行证件、奖项和家庭照片。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q160.html">FayFoto 波士顿的照片</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">部分数字化</td>
+                    <td class="w-50">波士顿照片集，包括华埠航拍照片。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q161.html">Harry Hom Dow 文件</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">部分数字化</td>
+                    <td class="w-50">Dow 是一个华裔移民之子，在马萨诸塞州长大，当时正值 1882 年《排华法案》生效，反华情绪和歧视普遍存在。 尽管面临这些挑战，这位萨福克大学法学院的毕业生还是成为第一位通过了马萨诸塞州律师考试、在军队服过役、开设了私人律所的华裔美国人，而且还是一位著名的活动家。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q165.html">Jeffrey Wong 的打字机</a></td>
+                    <td class="w-15">个人馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">这是 Yu-Wen Wu 的一个个人馆藏，他拥有上海印刷公司的排版。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q166.html">Judy Branfman 的文件和“坚守阵地 (Standing Our Ground)”记录</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">这个馆藏包含 1988 年的华埠用户调查、1989 年对华埠 Kam Lee 和 Carol Lee 的访谈记录和录音及 1989 年的华埠照片。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q168.html">Margaret Wong 馆藏【餐馆老板】</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">纽英仑华人历史协会 (CHSNE) 的众多馆藏之一， 尚未处理， 应向纽英仑华人历史协会 (CHSNE) 查询是否可用于研究。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q170.html">Mong Q. Lee 馆藏</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">部分数字化</td>
+                    <td class="w-50">这个馆藏包含 Mong Q. Lee 的大部分财物，例如，文凭、证书、艺术品、报纸文章及信件。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q173.html">Norman B. Leventhal 地图中心馆藏</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">部分数字化</td>
+                    <td class="w-50">从 1800 年代至今的波士顿（包括华埠）地图以及显示 1870 年代至 1980 年代建筑物和业主的地图集。 这个馆藏还包含波士顿重建局（1960 年代至 1990 年代）的多个规划和地图。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q174.html">Rose Lok 馆藏</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">完全数字化</td>
+                    <td class="w-50">这是一个有关 Rose Lok 和中国爱国飞行队的资料馆藏， 其中几个藏品涉及她的副驾驶和其他特别访谈， 还包括电子邮件，解释了这些馆藏如何为纽英仑华人历史协会 (CHSNE) 所拥有。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q176.html">Tunney Lee 馆藏</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">部分数字化</td>
+                    <td class="w-50">这是纽英仑华人历史协会 (CHSNE) 的众多馆藏之一， 目前正在处理中，无法用于研究。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q181.html">Yu-Wen Wu 灯笼项目</a></td>
+                    <td class="w-15">个人馆藏</td>
+                    <td class="w-15">完全数字化</td>
+                    <td class="w-50">Yu-Wen Wu 灯笼项目是绿道保护协会 (Greenway Conservancy) 委托的一个户外公共艺术项目。 这些灯笼是用来讲述波士顿华埠历史和现状的实物。 伴随这件艺术品的是每个灯笼（照片和艺术品）的描述目录和一个描述社区参与过程和制造的视频。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q172.html">东北大学档案馆报刊及特藏</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">部分数字化</td>
+                    <td class="w-50">这个特别馆藏包含多期《舢板》和记录华埠的其他报纸（例如，《波士顿环球报》、《波士顿凤凰报》）。 这些报纸包含华埠和著名华埠人物的照片，以及关于华埠持续发展和缩小的报道。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q159.html">中国女工口述历史项目</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">完全数字化</td>
+                    <td class="w-50">这个馆藏包含对移民女工的七次访谈，她们都是华人进步会和亚太裔美国劳工联盟的积极领导者。 藏品包含音频和视频记录及访谈记录。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q180.html">于氏兄弟馆藏</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">二战期间，所有三个 Yuu 氏兄弟都在美国武装部队服役。 Yuu 氏据信是唯一一个有三个儿子同时在二战中服役的华裔美国人家庭。 他们的父亲在第一次世界大战中在约翰·约瑟夫·潘兴将军手下服役。 （由 Joseph Yuu 和纽英仑华人历史协会 (CHSNE) 馆藏提供。）</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q150.html">=亚裔社区发展公司 (Jacquie L. Kay) 记录</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15"></td>
+                    <td class="w-50">亚裔社区发展公司 (ACDC) 的记录记载了经济适用房的发展以及为城市地区亚裔美国人在小型企业发展、教育和职业培训方面提供的援助。 大部分馆藏都记录了亚裔社区发展公司 (ACDC) 两个开发项目&#34;橡树台 (Oak Terrace)”和“大都会 (The Metropolitan)”，包括资金报告、项目状态报告和设计规范。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q149.html">亚裔美国人资源研讨会记录</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">部分数字化</td>
+                    <td class="w-50">这个馆藏中的记录记载了亚裔文化资源中心 (AARW) 为亚裔美国人争取公民权利和反暴力所做的工作，及其对亚裔美国人教育和文化资源的创造。 还包含有关 SafetyNet 暴力预防项目和糯米项目的相关资料。 各种文件包括会议记录、日历、补助金申请表、预算、照片、漫画等。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q167.html">共好会广教中文学校</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">纽英仑华人历史协会 (CHSNE) 的众多馆藏之一， 尚未处理，但包含组织文件。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q40.html">华人进步会记录</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">部分数字化</td>
+                    <td class="w-50">华人进步会记录记载了从 1970 年代到 2000 年代在华埠和大波士顿华人和亚裔美国人社区的倡行主义和倡权活动。 主题包括城市发展、移民权利、工人权利、种族暴力、租户权利和中国文化活动， 包含行政记录、照片、视频和剪报。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q155.html">华埠故事车</a></td>
+                    <td class="w-15">网站</td>
+                    <td class="w-15">完全数字化</td>
+                    <td class="w-50">这是 2020-2021 年创作的一个艺术项目， 与波士顿华埠社区中心 (BCNC)、城堡广场租户组织 (CSTO) 和亚裔社区发展公司 (ACDC) 等当地青年团体合作，收集了关于华埠社区生活和疫情经历的访谈，并创建了视觉媒体。 还包括向居民发送和收集的带有视觉艺术和反思活动的故事集。 大部分馆藏都是数字化作品。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q177.html">华林功夫/华林功夫新英格兰总部</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">部分数字化</td>
+                    <td class="w-50">华林功夫在波士顿华埠已有 40 多年的历史， 一直活跃参加华埠大多数公共庆祝活动，例如，舞狮和武术表演， 不但将周边社区作为学生和实践者带到了华埠，还在新英格兰各地的表演中传播了中国传统。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q156.html">华裔美国人体验马萨诸塞州回忆路演</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">完全数字化</td>
+                    <td class="w-50">华裔美国人体验马萨诸塞州回忆路演是一个社区成员贡献藏品（照片、文件、视频访谈）数字化馆藏。 这些材料是 2018 年 6 月 2 日在华埠包氏艺术中心举行的参与式收藏活动中收集。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q157.html">华裔美国妇女口述历史项目</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">以中国生活、美国移民和定居、家庭生活、教育、工作、民族认同、同化和文化适应以及与中国的持续联系为中心的口述历史馆藏。 主要藏品是录音带。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q163.html">哈德逊街编年史</a></td>
+                    <td class="w-15">网站</td>
+                    <td class="w-15">born-digital</td>
+                    <td class="w-50">这是 Cynthia Yee 个人网站上的照片、故事和散文集。 她探讨的主题包括繁荣社区生活和儿童发育，结构性种族主义的压迫方式，女权主义如何得到培养，以及社会正义在美国的面貌。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q164.html">国际社会记录</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">部分数字化</td>
+                    <td class="w-50">国际协会最初于 1979 年由中国经济发展委员会 (CEDC) 发展而来， 其使命是改善波士顿华人社区的社会经济状况，支持中国文化，同时促进本市对中国文化的理解。 这个馆藏包含文字记录和照片，有剪报、会议纪要和小册子。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q179.html">女性口述史</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">这是纽英仑华人历史协会 (CHSNE) 的众多馆藏之一， 目前尚未处理， 应向纽英仑华人历史协会 (CHSNE) 查询是否可用于研究.</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q162.html">干草市场人民基金记录</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">这个馆藏包含 1978 年以来关于华埠人民进步会的资料， 还包含关于华埠社区壁画及华埠住房和土地开发特别工作组的未注明日期材料。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q158.html">新英格兰中华慈善联合会 (CCBA) 文件</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">馆藏中与华埠有关的主要实物文件（会议记录、传单、照片）可追溯到 1980 年代，包括华埠大门的设计/建筑图纸。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q151.html">波士顿 200 记录</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">部分数字化</td>
+                    <td class="w-50">记录华埠和南端社区的口述历史馆藏。 标有南端社区的口述历史经常涉及华埠的个人和活动。 许多口述历史的誊本都不完整，似乎已经过编辑。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q171.html">波士顿华埠国家史迹名录多处房产文件表格</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">一份日期为 2016 年 6 月 1 日的研究文件，其中包含波士顿华埠的国家历史名胜名录多出房产文件表格的副本。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q152.html">波士顿城市园丁记录</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">这个馆藏包含 1980 年代华埠的资料文件夹，例如，调查（商业、住房、用户）、报告（土地使用）、规划、地图（市中心十字路口和华埠）和一份出版物（“1988 年华埠：社区成长的城市设计”）</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q142.html">波士顿绿地联盟记录</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">这个馆藏包含一个名为“2004 年华埠”的资料文件夹（3 号箱文件夹 146）。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q178.html">洗涤</a></td>
+                    <td class="w-15">网站</td>
+                    <td class="w-15">完全数字化</td>
+                    <td class="w-50">《洗涤》是一个 2021 年创立的艺术项目，讲述华埠 I-90 和 I-93 高速公路的遗产，包含与一个华埠居民团队一起收集的华埠居民和社区成员（Michael Liu、Doug Brugge 和 Mary Knasas）访谈。 访谈只有音频。 正在进行的工作旨在为这个项目创建电影、杂志和网站。</td>
+                </tr>
+                
+                <tr>
+                    <td class="w-20"><a href="./Q169.html">菜单馆藏</a></td>
+                    <td class="w-15">档案馆藏</td>
+                    <td class="w-15">尚未数字化</td>
+                    <td class="w-50">波士顿华埠、大波士顿和新英格兰中餐馆菜单馆藏。</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+
+        </div>
+    </main>
+    <footer class="footer mt-auto p-2 bg-light">
+    <div class="container">
+        <p>
+            这是设于东北大学图书馆数字社区历史和档案实验室的<a href="https://bostonresearchcenter.org/" target="_blank">波士顿研究中心</a>与波士顿公共图书馆合作的一个项目。 
+        </p>
+        <p>
+            有问题或建议吗？电邮  <a href="mailto:brc@northeastern.edu">brc@northeastern.edu</a> 与我们联系。 
+        </p>
+        <p><em>部分资金来自安德鲁•梅隆基金会和国家人文基金会的慷慨支持。</em></p>
+    </div>
+</footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('#collections-table').dataTable({
+            language: {
+                url: 'https://cdn.datatables.net/plug-ins/1.12.1/i18n/zh.json'
+            }
+          });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('#organizations-table').dataTable({
+            language: {
+                url: 'https://cdn.datatables.net/plug-ins/1.12.1/i18n/zh.json'
+            }
+          });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('#people-table').dataTable({
+            language: {
+                url: 'https://cdn.datatables.net/plug-ins/1.12.1/i18n/zh.json'
+            }
+          });
+        });
+    </script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,15 @@
+.cc-field-name {
+    font-weight: bold;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+main > .container {
+    padding: 60px 15px 0;
+}
