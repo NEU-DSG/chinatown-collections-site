@@ -5,3 +5,10 @@ The Chinatown History Directory site is generated from a set of framework pages 
 3. Regenerating the site
 
 Those first two things are fairly easy and are documented below. Step 3 requires one of the site administrators to initiate the process for regenerating the site and deploying the new version onto the publication server.
+
+When editing the template files, focus on the HTML contentL e.g. inside <p> elements, <h1> elements, etc.
+
+Specific files that are useful to edit:
+* en/about.html
+* en/credits.html
+* en/data_model.html
